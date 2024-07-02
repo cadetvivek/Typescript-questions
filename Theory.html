@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Why do we need to install types/node? What does it do?</h1>
+    <p>Provides type definitions for the built-in Node.js modules and APIs.
+        Enables type checking and autocompletion for Node.js objects and functions in your TypeScript code.</p>
+    <h1>Why do we need to install types/express? What does it do?</h1>
+    <p>Similar to @types/node, but specific to the Express framework.
+        Offers type definitions for Express classes, methods, and properties.
+        Ensures type safety and code completion for your Express-related code.</p>
+    <h1>What is the need for changing moduleresolution to es6?</h1>
+    <p>This tsconfig.json setting tells the TypeScript compiler to treat modules using the ES6 module system (import/export syntax).
+        This is the modern standard for JavaScript modules and aligns with TypeScript's use of import.</p>
+    <h1>Import keyword is very similar to require keyword. What do you think? </h1>
+    <p>You're right, import and require are similar in that they both import modules into your code. However, there are some key differences that make import the preferred choice for TypeScript and modern JavaScript development:</p>
+    <h1>How does import { Router } from 'express'. work. What does { } this do?
+    </h1>
+    <p>The statement import { Router } from 'express' in TypeScript achieves two things:
+
+        Importing the Router class: It imports the Router class from the express module. This class is used to create modular route handlers in Express.js applications.
+        
+        Destructuring the import: The curly braces {} are used for destructuring the import. This allows you to extract specific named exports from the express module, in this case, just the Router class.</p>
+   
